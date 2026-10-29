@@ -49,7 +49,7 @@ SDK documentation for the current API contract.
 ```typescript
 const MINIMAX_BASE_URLS = {
   global: "https://api.minimax.io/anthropic",
-  china: "https://api.minimax.cn/anthropic",
+  china: "https://api.minimaxi.com/anthropic",
 } as const;
 
 type MiniMaxRegion = keyof typeof MINIMAX_BASE_URLS;
